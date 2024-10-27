@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
+import Aside from "./components/Aside/Aside";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -32,6 +33,7 @@ function App() {
         Click on the Vite and React logos to learn more
       </p>
       <Footer />
+      <Aside />
     </>
   );
 }
