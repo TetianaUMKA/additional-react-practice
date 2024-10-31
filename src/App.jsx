@@ -5,13 +5,16 @@ import "./App.css";
 import { Header } from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Aside from "./components/Aside/Aside";
+import Navigation from "./components/Navigation";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <Header />
+      <Header>
+        <Navigation />
+      </Header>
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
