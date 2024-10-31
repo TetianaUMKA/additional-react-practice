@@ -1,7 +1,7 @@
-export default function Header() {
+export const Header = () => {
   return (
     <div>
       <a href="#">LOGO</a>
     </div>
   );
-}
+};
