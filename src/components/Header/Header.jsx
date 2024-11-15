@@ -1,8 +1,10 @@
+import style from "./Header.module.css";
+
 export const Header = ({ children }) => {
   return (
-    <div>
-      <a href="#">LOGO</a>
-      <div>{children}</div>
-    </div>
+    <>
+      <div className={style.decor}>&thinsp;</div>
+      <div className={style.nav_decor}>{children}</div>
+    </>
   );
 };

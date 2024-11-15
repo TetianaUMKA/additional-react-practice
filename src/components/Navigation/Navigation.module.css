@@ -1,0 +1,17 @@
+.tab_list {
+  display: inline-flex;
+  background-color: blueviolet;
+  border-radius: 0 0 10px 10px;
+}
+
+.tab {
+  font-size: 18px;
+  font-weight: 500;
+  color: antiquewhite;
+  padding: 8px 16px;
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline 2px;
+}

@@ -1,10 +1,5 @@
 const Footer = () => {
-  return (
-    <address>
-      <a href="#">Logo</a>
-      <p>Pennsylvania Avenue NW, Washington</p>
-    </address>
-  );
+  return <footer></footer>;
 };
 
 export default Footer;
