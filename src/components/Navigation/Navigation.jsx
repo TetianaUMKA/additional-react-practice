@@ -21,12 +21,8 @@ const Navigation = () => {
   return (
     <Tabs selectedIndex={tabIndex} onSelect={(index) => setTabIndex(index)}>
       <TabList className={style.tab_list}>
-        <Tab className={homeTabDecor.join(" ")}>
-          <Home />
-        </Tab>
-        <Tab className={phoneTabDecor.join(" ")}>
-          <Phonebook />
-        </Tab>
+        <Tab className={homeTabDecor.join(" ")}>Home</Tab>
+        <Tab className={phoneTabDecor.join(" ")}>Phonebook</Tab>
       </TabList>
 
       <TabPanel>
