@@ -1,9 +1,10 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 // import "react-tabs/style/react-tabs.css";
-import Home from "../Home/Home";
-import Phonebook from "../Phonebook/Phonebook";
 import style from "./Navigation.module.css";
 import { useState } from "react";
+
+import Home from "../../tabs/Home/Home";
+import Phonebook from "../../tabs/Phonebook/Phonebook";
 
 const Navigation = () => {
   const [tabIndex, setTabIndex] = useState(0);
