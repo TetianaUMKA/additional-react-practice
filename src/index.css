@@ -1,4 +1,6 @@
-:root {
+@import "./styles/variables.css";
+
+body {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
@@ -7,28 +9,37 @@
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  background: linear-gradient(to bottom, #c9d6ff, #e2e2e2);
 }
 
-ul,
-ol,
-li,
-p,
 h1,
 h2,
 h3,
 h4,
-h5 {
+h5,
+h6,
+p,
+li {
   margin: 0;
   padding: 0;
 }
 
+ul,
+ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+
 a {
   font-weight: 500;
-  color: #646cff;
+  color: var(--color-violet);
   text-decoration: inherit;
+  transition: var(--animation-cubicBezier);
 }
 a:hover {
-  color: #535bf2;
+  color: var(--color-hoverViolet);
 }
 
 /* body {

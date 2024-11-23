@@ -1,0 +1,13 @@
+:root {
+  /* colors */
+  --color-violet: #8a2be2;
+  --color-hoverViolet: #535bf2;
+  --color-lightFont: #fdf2e3;
+  --color-lightFontHover: #fefefc;
+  /* font */
+  --font-medium: 18px;
+  --font-large: 22px;
+  --font-small: 14px;
+  /* animation */
+  --animation-cubicBezier: 0.25s cubic-bezier(0.7, 0.98, 0.86, 0.98);
+}
