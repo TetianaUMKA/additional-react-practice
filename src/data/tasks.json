@@ -1,0 +1,13 @@
+[
+  {
+    "appName": "Phonebook",
+    "descrItems": [
+      "a list of contacts",
+      "a search of contacts",
+      "possibility of adding new contacts",
+      "possibility of deleting contacts",
+      "storing contacts array into localStorage"
+    ],
+    "descrLink": "https://www.edu.goit.global/uk/learn/22646607/22355212/22361201/homework"
+  }
+]
