@@ -1,0 +1,13 @@
+.title {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.text {
+  text-align: center;
+  line-height: 1.8;
+  font-size: var(--font-large);
+  font-weight: 500;
+  margin-bottom: 20px;
+  opacity: 0.9;
+}

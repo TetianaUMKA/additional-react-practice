@@ -1,0 +1,22 @@
+.item_container {
+  max-width: 1200px;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  box-shadow: rgb(138, 44, 226, 0.8) -5px 5px, rgb(138, 44, 226, 0.8) 1px 1px,
+    rgb(138, 44, 226, 0.3) -10px 10px, rgb(138, 44, 226, 0.2) -10px 10px,
+    rgb(138, 44, 226, 0.1) -15px 15px, rgb(138, 44, 226, 0.05) -20px 20px;
+}
+
+.title {
+  margin-bottom: 12px;
+}
+
+.text {
+  font-weight: 700;
+  padding-bottom: 6px;
+}
+
+.link_text {
+  font-weight: 500;
+}
