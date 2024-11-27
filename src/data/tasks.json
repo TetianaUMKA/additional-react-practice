@@ -3,11 +3,39 @@
     "appName": "Phonebook",
     "descrItems": [
       "a list of contacts",
-      "a search of contacts",
+      "a search of contacts by using Formik with Yup",
       "possibility of adding new contacts",
       "possibility of deleting contacts",
       "storing contacts array into localStorage"
     ],
-    "descrLink": "https://www.edu.goit.global/uk/learn/22646607/22355212/22361201/homework"
+    "descrLink": "https://www.edu.goit.global/uk/learn/22646607/22355212/22361201/homework",
+    "moduleName": "Module 3 \"Forms\""
+  },
+  {
+    "appName": "Gallery",
+    "descrItems": [
+      "a header with a search form in it",
+      "notifications (use libruary React Hot Toast)",
+      "implementation of HTTP-requests for images from Unsplash image service",
+      "a loader from react-loader-spinner",
+      "a configured error message",
+      "a download button, which will load more images",
+      "a modal window that will be open after the image is clicked (use React Modal for that)"
+    ],
+    "descrLink": "https://www.edu.goit.global/uk/learn/22646607/22355212/23027902/homework",
+    "moduleName": "Module 4 \"HTTP-requests. Hooks\""
+  },
+  {
+    "appName": "Movie search",
+    "descrItems": [
+      "implementation of HTTP-requests for images from TMDB movie service",
+      "notifications (use libruary that you would like)",
+      "a loader (use libruary that you would like)",
+      "a configured error message",
+      "routes for components such as HomePage, MoviesPage, MovieDetailsPage, MovieCast, MovieReviews, MovieDetailsPage, NotFoundPage with Link to a main page (use React Router)",
+      "a link 'Go back' that returns to the previous page when clicked",
+      "asynchronous code execution (use React.lazy and Suspense)"
+    ],
+    "moduleName": "Module 5 \"React Router\""
   }
 ]
